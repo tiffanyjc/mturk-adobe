@@ -46,7 +46,6 @@
                        required />
             </fieldset>
 
-<<<<<<< d7c47faaf4b280d80f0dbf11c36aa3a6511385f4
             <fieldset class="pure-group">
                 <label for="id" style="display: none;">
                     id
@@ -75,8 +74,6 @@
                 console.log(document.getElementById('group').value)
             </script>
 
-=======
->>>>>>> adding all files
             <!--  //////////////  Select an image //////////////--> 
             <div id="imagePage">
 
@@ -503,7 +500,6 @@
                     </center>
                 </fieldset>
 
-<<<<<<< d7c47faaf4b280d80f0dbf11c36aa3a6511385f4
                 <!--      Q8 r: sense of ownership-->
                 <fieldset class="pure-group">
                     <label for="ownership" align="center"> 8) I feel ownership over the final edited image.</label>
@@ -544,11 +540,6 @@
             </div>
 
             <button id="submit" class="button-success pure-button button-xlarge" onclick="makeid()" disabled>
-=======
-            </div>
-
-            <button id="submit" class="button-success pure-button button-xlarge" disabled>
->>>>>>> adding all files
                 <i class="fa fa-paper-plane"></i>
                 &nbsp;Submit
             </button>
@@ -559,17 +550,10 @@
         <div style="display:none;" id="thankyou_message">
             <h2><em>You have completed the survey.</em> </h2>
 
-<<<<<<< d7c47faaf4b280d80f0dbf11c36aa3a6511385f4
             Please fill copy the following UNIQUE code and paste it into Amazon Mechanical Turk:
 
             <p>
             <h2 id="code">1234</h2>
-=======
-            Please fill copy the following code and paste it into Amazon Mechanical Turk:
-
-            <p>
-            <h2>1234ABC</h2>
->>>>>>> adding all files
             </p>
         </div>
 
@@ -613,7 +597,6 @@ src="/form-submission-handler.js"></script> -->
         }
 
         function nextPage(current, next) {
-<<<<<<< d7c47faaf4b280d80f0dbf11c36aa3a6511385f4
             if (next == 'intensityPage') {
                 var group = document.getElementById('group').value
                 if (group == 'a') {
@@ -625,22 +608,13 @@ src="/form-submission-handler.js"></script> -->
             if (next == 'feedbackPage') {
                 document.getElementById('submit').style.display = "block"
             } 
-=======
-            if (next == 'feedbackPage') {
-                document.getElementById('submit').style.display = "block"
-            }
->>>>>>> adding all files
 
             document.getElementById(current).style.display = "none";
             document.getElementById(next).style.display = "block"; 
         }
 
         function validate() {
-<<<<<<< d7c47faaf4b280d80f0dbf11c36aa3a6511385f4
             var toCheck = ['expectations1', 'satisfaction', 'creativecontrol1', 'creativecontrolamount', 'creativeself', 'expectations2', 'creativecontrol2', 'ownership'];
-=======
-            var toCheck = ['expectations1', 'satisfaction', 'creativecontrol1', 'creativecontrolamount', 'creativeself', 'expectations2', 'creativecontrol2'];
->>>>>>> adding all files
             var numQuestions = toCheck.length; 
             var canSend = false;
 
@@ -665,7 +639,6 @@ src="/form-submission-handler.js"></script> -->
             }
         }
 
-<<<<<<< d7c47faaf4b280d80f0dbf11c36aa3a6511385f4
         function makeid() {
             document.getElementById('submit').innerHTML = "Loading..."
             var text = "";
@@ -679,8 +652,6 @@ src="/form-submission-handler.js"></script> -->
             
         }
 
-=======
->>>>>>> adding all files
 
     </script>
     </body>
